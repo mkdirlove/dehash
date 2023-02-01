@@ -25,7 +25,7 @@ php dehash.pph -h
  | | \ | |_  | |_|  / /\  ( (` | |_| 
  |_|_/ |_|__ |_| | /_/--\ _)_) |_| | 
 
- Usage: php dehash.php --type [hash type] --hash [hash value]
+ Usage: php dehash.php --type [hash type] --hash [hash value / file]
                        --type [md5, md4, sha1, sha256, sha384, sha512, ntlm]
                        --hash [hash value / file]
 ```
