@@ -6,15 +6,6 @@
   <br>
 </h1>
 
-### Supported Hashes
-- md5
-- md4
-- sha1
-- sha256
-- sha384
-- sha512
-- ntlm
-
 #### Installation
 
 Copy-paste this into your terminal:
@@ -46,4 +37,8 @@ php dehash.php --type md5 --hash 5f4dcc3b5aa765d61d8327deb882cf99
 #### Cracking multiple hash from text file
 ```
 php dehash.php --type md5 --hash hashes.txt
+```
+#### Supported Hashes
+```
+md5, md4, sha1, sha256, sha384, sha512, ntlm
 ```
