@@ -53,3 +53,7 @@ php dehash.php --type md5 --hash hashes.txt
 ```
 md5, md4, sha1, sha256, sha384, sha512, ntlm
 ```
+#### Demo video
+```
+https://asciinema.org/a/GBXVLbiJNLBjX5EOuggI84t9j
+```
