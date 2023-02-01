@@ -10,7 +10,7 @@
 
 Copy-paste this into your terminal:
 
-```sh
+```
 git clone https://github.com/mkdirlove/dehash.git
 ```
 ```
@@ -29,6 +29,17 @@ php dehash.pph -h
                        --type [md5, md4, sha1, sha256, sha384, sha512, ntlm]
                        --hash [hash value / file]
 ```
+
+#### Then edit file to match your config
+
+You can create secret code at https://md5decrypt.net/en/Api/
+
+```
+// Change this
+$email = ""; /* Your email */
+$code = "";  /* Your secret code */
+```
+
 #### Cracking single hash
 ```
 php dehash.php --type md5 --hash 5f4dcc3b5aa765d61d8327deb882cf99
