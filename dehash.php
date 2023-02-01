@@ -1,6 +1,6 @@
 <?php
 
-// Change this
+// You can change this if you want to use your own email and code.
 $email = "jd9902791@gmail.com"; /* Your email */
 $code = "2c95837f1f75c6c9";     /* Your secret code */
 
