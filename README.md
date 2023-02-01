@@ -6,6 +6,15 @@
   <br>
 </h1>
 
+### Supported Hashes
+- md5
+- md4
+- sha1
+- sha256
+- sha384
+- sha512
+- ntlm
+
 #### Installation
 
 Copy-paste this into your terminal:
