@@ -32,7 +32,8 @@ php dehash.pph -h
 
 #### Then edit file to match your config
 
-You can create secret code at https://md5decrypt.net/en/Api/
+The tool already have an email and secret code...
+But you can create your own secret code at https://md5decrypt.net/en/Api/
 
 ```
 // Change this
