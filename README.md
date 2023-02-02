@@ -53,6 +53,19 @@ php dehash.php --type md5 --hash hashes.txt
 ```
 md5, md4, sha1, sha256, sha384, sha512, ntlm
 ```
+
+#### Error Codes Description
+```
+- ERROR CODE : 001   ==>   You exceeded the 400 allowed request per day (please contact me if you need more than that).
+- ERROR CODE : 002   ==>   There is an error in your email / code.
+- ERROR CODE : 003   ==>   Your request includes more than 400 hashes.
+- ERROR CODE : 004   ==>   The type of hash you provide in the argument hash_type doesn't seem to be valid.
+- ERROR CODE : 005   ==>   The hash you provide doesn't seem to match with the type of hash you set.
+- ERROR CODE : 006   ==>   You didn't provide all the arguments, or you mispell one of them.
+- ERROR CODE : 007   ==>   The premium code you entered doesn't seem to be valid.
+- ERROR CODE : 008   ==>   The premium variable doesn't seem to be correct, it must be 1.
+- ERROR CODE : 009   ==>   Your premium account ran out of time, to continue using it, you'll have to buy more time or hashes.
+```
 #### Demo video
 ```
 https://asciinema.org/a/GBXVLbiJNLBjX5EOuggI84t9j
