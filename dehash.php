@@ -1,6 +1,6 @@
 <?php
 
-// You can change this if you want to use your own email and code.
+// Change this
 $email = "jd9902791@gmail.com"; /* Your email */
 $code = "2c95837f1f75c6c9";     /* Your secret code */
 
@@ -35,6 +35,7 @@ printBanner();
 if ($argc != 5) {
 	clearScreen();
 	helpBanner();
+	echo " Note: You can only decrypt 400 hashes per day.\n\n";
     echo " Usage: php dehash.php --type [hash type] --hash [hash value / file]\n";
     echo "                       --type [md5, md4, sha1, sha256, sha384, sha512, ntlm]\n";
     echo "                       --hash [hash value / file]\n";
@@ -56,6 +57,7 @@ for ($i = 1; $i < $argc; $i++) {
 }
 
 if (empty($hash_type) || empty($hash)) {
+	echo " Note: You can only decrypt 400 hashes per day.\n\n";
     echo " Usage: php dehash.php --type [hash type] --hash [hash value / file]\n";
     echo "                       --type [md5, md4, sha1, sha256, sha384, sha512, ntlm]\n";
     echo "                       --hash [hash value / file]\n";
