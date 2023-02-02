@@ -26,7 +26,7 @@ php dehash.pph -h
  |_|_/ |_|__ |_| | /_/--\ _)_) |_| | 
        Developed by @mkdirlove
 	  
- Note: You can only decrypt 400 hashes per day.
+ Note: You can only decrypt 400 hashes per day because this tool uses free API.
 
  Usage: php dehash.php --type [hash type] --hash [hash value / file]
                        --type [md5, md4, sha1, sha256, sha384, sha512, ntlm]
